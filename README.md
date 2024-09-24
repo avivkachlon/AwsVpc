@@ -37,11 +37,13 @@ This project creates the following resources in AWS:
 ### Step 1: Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/avivkachlon/AwsVpc.git
 cd AwsVpc
 ```
 ### Step 2: Initialize the Terraform working directory
+```bash
 terraform init
+```
 
 ### Step 3: Customize variables
 #### You can customize the variables either by modifying the variables.tf file or by creating a terraform.tfvars file and overriding the defaults.
@@ -51,4 +53,6 @@ subnet2_cidr = "10.0.2.0/24"
 region = "us-west-2"
 
 ### Step 4: Apply the configuration
+```bash
 terraform apply
+```
