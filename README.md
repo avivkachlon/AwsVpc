@@ -36,10 +36,10 @@ This project creates the following resources in AWS:
 
 ### Step 1: Clone the repository
 
-``bash
+```bash
 git clone <repository-url>
 cd AwsVpc
-
+```
 ### Step 2: Initialize the Terraform working directory
 terraform init
 
