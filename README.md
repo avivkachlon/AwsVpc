@@ -8,9 +8,6 @@ This Terraform project automates the creation of an AWS Virtual Private Cloud (V
 - [Project Structure](#project-structure)
 - [Resources Created](#resources-created)
 - [Usage](#usage)
-- [Inputs](#inputs)
-- [Outputs](#outputs)
-- [License](#license)
 
 ## Prerequisites
 
